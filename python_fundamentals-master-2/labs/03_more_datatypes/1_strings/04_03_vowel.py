@@ -4,14 +4,16 @@
 #'''
 
 
-sentence = input("please give some words here: ")
-vowel = ["a","e","i","o","u"]
-sentence=list(sentence)
+sentence = (input("please give some words here: "))
+vowels = ["a","e","i","o","u"]
+
+for v in vowels:
+    print(v,sentence.count(v))
 
 
 
 
 
 
-print(vowel.count(sentence))
+
 
