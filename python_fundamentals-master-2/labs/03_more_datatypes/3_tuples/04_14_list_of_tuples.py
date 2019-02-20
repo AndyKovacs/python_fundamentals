@@ -9,9 +9,9 @@
 
 
 one_tuple_1 = input("give one string here: ")
-one_tuple_2 = input("give one more string here: ")
+#one_tuple_2 = input("give one more string here: ")
 one_tuple_1 = tuple(one_tuple_1)
-one_tuple_2 = tuple(one_tuple_2)
+#one_tuple_2 = tuple(one_tuple_2)
 #sum_list = zip(one_tuple_1,one_tuple_2)
 
 my_list = [one_tuple_1,one_tuple_2]
