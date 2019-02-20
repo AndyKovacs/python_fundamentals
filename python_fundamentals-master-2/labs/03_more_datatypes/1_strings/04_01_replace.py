@@ -12,7 +12,7 @@ words = input("please give some words or one sentence: ")
 symbol = input ("please give a symbol here: ")
 ersatz = words[0]
 
-print(words.replace(words,symbol))
+print(words.replace(ersatz,symbol))
 
 
 

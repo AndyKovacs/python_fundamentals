@@ -11,4 +11,3 @@ while number < 1000:
         print(number-1)
     else: False
 
-
