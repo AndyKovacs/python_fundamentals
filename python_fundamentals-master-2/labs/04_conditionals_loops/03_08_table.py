@@ -8,3 +8,26 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+for i in range(1,50):
+    if i%10 == 0:
+        print(i)
+    else: print(i,end=" ")
+
+
+
+
+
+"""
+for i in range (0,10):
+    print(i)
+for i in range (10,20):
+    print (i)
+for i in range(20,30):
+    print(i)
+for i in range(30,40):
+    print(i)
+for i in range(40,50):
+    print(i)
+"""
+
