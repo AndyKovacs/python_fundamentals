@@ -11,7 +11,7 @@ while my_guess < 1000000000:
     if my_guess !=receive:
         my_guess += 1
     elif my_guess==receive:
-        print(my_guess)
+        print("your number is "+str(my_guess))
         break
 
 

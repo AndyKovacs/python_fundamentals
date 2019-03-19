@@ -9,8 +9,8 @@ Use a loop to print the following table to the console:
 
 '''
 
-for i in range(1,50):
-    if i%10 == 0:
+for i in range(0,50):
+    if i%10 == 9:
         print(i)
     else: print(i,end=" ")
 

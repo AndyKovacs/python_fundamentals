@@ -8,7 +8,7 @@
 
 #'''
 #10 11 12 13 14 15 16 17 18 19
-
+"""
 numbs = [int(x) for x in input("give 10 numbers: ").split()]
 numbs_2 = numbs[1]
 numbs_4 = numbs[3]
@@ -25,3 +25,21 @@ numbs_ungerade =[numbs_1,numbs_3,numbs_5,numbs_7,numbs_9]
 allesineinem =numbs_gerade+numbs_ungerade
 
 print(allesineinem)
+"""
+list1=[]
+list2=[]
+
+y = input("Please give me 10 numbers seperated by commas: ")
+y = y.replace(","," ")
+y = y.split(" ")
+
+for i in range(1,11,2):
+    list1.append(y[i])
+
+
+for i in range(-2,-11,-2):
+    list2.append(y[i])
+    finallist = list1 + list2
+
+for element in finallist:
+    print(element, end=" ")

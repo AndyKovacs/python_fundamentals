@@ -7,9 +7,10 @@
 
 #'''
 
-list = [1,2,6,55,2,'hi',4,6,1,13]
-list = set(list)
-type(list)
-list = [list]
+liste = [1,2,6,55,2,'hi',4,6,1,13]
+setlist1 = set(liste)
+setlist2 = list(liste)
+new_list= liste-setlist2
 
-print(list,type(list))
+
+print(new_list)
